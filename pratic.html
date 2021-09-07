@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <title>Title</title>
   <meta charset="utf-8">
@@ -7,51 +8,152 @@
   <link rel="stylesheet" href="css/pratic.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+.content ,.links, .nvs ,img{
+  background: #1abc9c;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.imgbox img{
+    width: 100%;
+     height: auto;
+     border-radius: 50%; }
+  </style>
 </head>
+
 <body>
-  <div class="landing">
-    <div class="container-fluid">
+    <!--Nav Section  -->
+    
+    <nav class="navbar nvs  navbar-expand-lg shadow-lg  mt-1  navbar-dark ">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav m-auto mt-2mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link p-3" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light p-3" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light p-3" href="#">Gallery</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 mr-5">
+          <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button> -->
+
+          <button class="btn  bg-light ml-2 my-sm-0" type="submit">Login</button>
+          <button class="btn  bg-light ml-2 my-sm-0" type="submit">Register</button>
+        </form>
+        
+      </div>
+    </nav>
+    <!--Nav Ends  -->
+  
+    <div class="container-fluid " id="first">
+     <div class="row  mt-3">
+       <div class="col-md-7 ">
+         <div class="cards ">
+          <div class="content ">
+              <h5 class="p-3">Post</h5>
+              <p class="ml-3">Sept 7,2021</p>
+             <a href="" class="text-light "> <h3 class="ml-3">Django- The web framework for <br> perfectionists</h3></a>
+             <p class="ml-3 py-3">Django is a high-level web framework written in python programming language. It is very fast, secure and complete package for web development for perfectionists with deadlines. Web Development is so simple with django and a rapid process to complete huge project with any extend of complexities.</p>
+
+             <div class="imgboxs p-3 ">
+              <img src="img/da.png" width="100%" height="auto" alt="">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laudantium molestiae eligendi, recusandae ipsum saepe earum quod voluptatibus dicta, quidem adipisci voluptates sunt quo. Tenetur soluta ad velit amet porro saepe iure possimus quae assumenda, deserunt officia debitis earum veniam, quasi quisquam molestias consequatur nesciunt magnam aperiam! Ratione ab non sapiente distinctio quaerat delectus! Dolor illum est amet! Maxime rem ducimus eligendi! Aliquam obcaecati tempore quod repellat adipisci rem similique necessitatibus reprehenderit. Quae iste voluptates exercitationem porro optio culpa, nostrum doloremque repellat totam natus
+              </p>
+             </div>
+          </div>
+         </div>
+       </div>
+       <div class="col-sm-4">
+         <div class="cards mt-3">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="cards shadow-lg">
+                <div class="links ">
+                 <img src="img/blog.jpeg" alt="" width="100%" height="auto">
+                 <h5 class="text-center py-3">Lorem ipsum dolor sit.</h5>
+                 <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quidem ut consequuntur ex magni repudiandae iste placeat labore excepturi obcaecati.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="cards mt-3">
+                <div class="links shadow-lg">
+                <img src="img/blog2.jpeg" width="100%" height="auto" alt="">
+                  <h5 class="text-center py-3">We Teach The Future</h5>
+                  <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quidem ut consequuntur ex magni repudiandae iste placeat labore excepturi obcaecati.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
+     </div>
+    </div>
+
+<div class="container-fluid">
+  <div class="landing" style="background:#1abc9c ;"> 
+    <div class="">
       <div class="row">
         <div class="col-md-6">
-          <div class="imgbox mt-5">
+          <div class="imgbox container mt-5">
             <img src="https://images.pexels.com/photos/450214/pexels-photo-450214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div class="myself text-light ">
+              <h2 class="m-3 text-center"><span>A</span>bout Me</h2>
+              <p class="m-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sit autem tenetur dolores cumque adipisci
+                magni repellat, esse facere tempora, ea alias consequatur, amet harum quod fuga dolore sint fugit?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ea animi sint consequatur, perspiciatis
+                id voluptatibus aliquam autem, dolores mollitia voluptas, necessitatibus obcaecati accusantium dolor.
+                Harum saepe fugiat odit maxime.
+              </p>
+              <button class="btn btn-light m-2">Contact Me</button>
+            </div>
           </div>
         </div>
-        <div class="col-md-6 my-auto">
-          <div class="myself text-light ">
-            <h2 class="m-3"><span>A</span>bout Me</h2>
-            <p class="m-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sit autem tenetur dolores cumque adipisci
-              magni repellat, esse facere tempora, ea alias consequatur, amet harum quod fuga dolore sint fugit?
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ea animi sint consequatur, perspiciatis
-              id voluptatibus aliquam autem, dolores mollitia voluptas, necessitatibus obcaecati accusantium dolor.
-              Harum saepe fugiat odit maxime.
-            </p>
-            <button class="btn btn-light m-2">Contact Me</button>
-          </div>
+        <div class="col-md-6 text-light ">
+            <div class="form mx-auto mt-3 ">
+              <form class="form-inline my-2 my-lg-0 mr-5">
+                 <input class="form-control ml-3" type="search" placeholder="Search">
+                <button class="btn btn-light my-2  ml-3" type="submit">Search</button> 
+              </form>
+              <p class="font-weight-bold my-3 p-2">RECENT </p>
+              <hr>
+             <a href="" class="text-light"> <p class="mx-2">Django- The web framework for perfectionists</p></a>
+              <hr>
+              <a href="" class="text-light"><p class="mx-2">A Warm Welcome to You All</p></a> <hr>
+              <p class="font-weight-bold my-3 p-2">ARCHIVES</p>
+              <hr>
+             <a href="" class="text-light"> <p class="mx-2">Django- The web framework for perfectionists</p></a>
+              <hr>
+              <a href="" class="text-light"><p class="mx-2">A Warm Welcome to You All</p></a>
+              <hr>
+              <p class="font-weight-bold my-3 p-2">CATOGRIES</p>
+              <hr>
+              
+              <p class=" my-3 p-2">Uncategorized</p>
+              <hr>
+            </div>
+            </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="skills mt-5 text-light ">
-      <h3 class="text-dark text-center">My skills</h3>
-      <label for="" class="text-dark font-weight-bold p-3">Html</label>
-      <div class="html w-75  text-center">75%</div>
-      <label for="" class="text-dark font-weight-bold p-3">Css</label>
-      <div class="css w-50  text-center ">50%</div>
-      <label for="" class="text-dark font-weight-bold p-3">Javascript</label>
-      <div class="javascript   w-25 text-center ">25%</div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="projects">
-
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>

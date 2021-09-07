@@ -1,0 +1,16 @@
+.back{
+    background: url('dog2.jpg');
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#na{
+    
+    position: sticky;
+    transition: 1s;
+    top: 0%;
+}
+.white{
+    background: tomato; 
+}

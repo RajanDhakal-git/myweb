@@ -1,0 +1,17 @@
+.landing{
+    background-color: #1abc9c;
+    /* clip-path: circle(180vh at 50% -80vh); */
+   min-height: 100vh;}
+.imgbox{
+    /* clip-path: circle(40.0% at 60% 49%); */
+   
+    
+}
+.imgbox img{
+    width: 100%;
+    height: auto;
+     border-radius: 50%; 
+}
+.html,.css,.javascript {
+    background: #1abc9c;
+}
